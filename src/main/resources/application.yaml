@@ -1,0 +1,7 @@
+management:
+  metrics:
+    export:
+      elastic:
+        host: http://localhost:9200
+        index: my-sample-index
+        step: 10s
